@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.even-odd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  border-radius: 7px;
+  padding: 15px;
+}
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 10px;
+  border-color: #0f172a;
+  cursor: pointer;
+  outline: none;
+}
